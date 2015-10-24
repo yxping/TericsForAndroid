@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@drawable/menu_mask"
+    android:gravity="center"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="遊戲結束"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/result_restart_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重新開始"/>
+    <Button
+        android:id="@+id/result_back_to_menu_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回菜單"/>
+</LinearLayout>
